@@ -46,10 +46,18 @@ $ npx sequelize db:migrate --env test
 # RUN TEST
 
 # step : run all test
-$ npm run test
+$ npm run test-mac
+# or
+$ npm run test-win
 # step : run specified file test
-$ npm run test ./path (ex : npm run test ./__test__/user/register.test.js)
+$ npm run test-mac ./path (ex : npm run test ./__test__/photos.test.js)
+# or
+$ npm run test-win ./path (ex : npm run test ./__test__/photos.test.js)
 ```
+
+## TESTING USING JEST
+#### [GET /photos/] [POST /photos/] [GET /photos/:id]
+![](ss-result-test/test-photo.png)
 
 ## License
 

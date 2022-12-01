@@ -6,13 +6,20 @@
   "scripts": {
     "dev": "nodemon bin/www",
     "start": "node bin/www",
-    "test": "NODE_ENV=test npx jest --runInBand --coverage",
-    "test-win": "SET NODE_ENV=test&& npx jest --runInBand --detectOpenHandles --forceExit",
+    "test-mac": "NODE_ENV=test npx jest --runInBand --coverage",
+    "test-win": "SET NODE_ENV=test&& npx jest --runInBand --coverage --detectOpenHandles --forceExit",
     "tidy": "prettier . --write"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafidh2001/Hactiv8_Assignment-3"
+  },
+  "author": "hafidh ahmad fauzan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafidh2001/Hactiv8_Assignment-3/issues"
+  },
+  "homepage": "https://github.com/hafidh2001/Hactiv8_Assignment-3#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "bcryptjs": "^2.4.3",
